@@ -1,0 +1,30 @@
+
+.footer {
+    text-align: left;
+    background-color:#F2F2F2 ;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer p {
+    margin:10px;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+.footer li {
+    margin: 10px;
+}
+
+.footer section {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px ;
+    border-color: hsla(0, 2%, 60%, 0.337);
+}

@@ -1,0 +1,52 @@
+.Pesquisa {
+    margin: 100px;
+    display: flex;
+    flex:1 1 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Pesquisa section {
+    display: flex;
+    border: 1px solid;
+    width: 50%;
+    border-radius: 20px;
+    align-items: center;
+    padding: 0px 10px;
+    margin: 30px;
+
+}
+
+.Pesquisa section input {
+    border: none;
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+}
+
+.Pesquisa section input:focus-visible {
+    outline: none;
+}
+
+
+.Pesquisa button {
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    border: none;
+    color: #7B7B7B;
+    cursor: pointer;
+}
+
+.Safe {
+    display: flex;
+    align-items: center;
+}
+
+.Safe a {
+    color:#1A0DBD ;
+    cursor: pointer;
+    margin: 10px;
+}
